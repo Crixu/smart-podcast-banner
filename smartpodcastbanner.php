@@ -62,7 +62,7 @@ function add_smart_banner() {
     echo '<script>
         var smartBanner = document.createElement("meta");
         smartBanner.name = "apple-itunes-app";
-        smartBanner.content = "app-id=' . $podcast_id . ', app-argument=' . $smart_banner_url . '";
+        smartBanner.content = "app-id=' . esc_attr($podcast_id) . ', app-argument=' . esc_attr( esc_url($smart_banner_url)) . '";
         document.getElementsByTagName("head")[0].appendChild(smartBanner);
     </script>';
 }
