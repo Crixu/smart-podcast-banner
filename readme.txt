@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Smart Podcast Banner ===
 Contributors: Crixu
 Tags: Podcast, Smart Banner
 Requires at least: 6.0
